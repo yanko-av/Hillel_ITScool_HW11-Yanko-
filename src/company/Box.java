@@ -5,9 +5,6 @@ public class Box {
     int b;
     int c;
 
-    Box() {
-    }
-
     Box(int a, int b, int c) {
         this.a = a;
         this.b = b;
