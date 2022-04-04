@@ -26,7 +26,6 @@ public class Box {
     public void setA(int a) {
         if (a <= 0) {
             System.out.println("Incorrect size A");
-//            return;
         } else this.a = a;
     }
 
@@ -37,7 +36,6 @@ public class Box {
     public void setB(int b) {
         if (b <= 0) {
             System.out.println("Incorrect size B");
-//            return;
         } else this.b = b;
     }
 
@@ -48,7 +46,6 @@ public class Box {
     public void setC(int c) {
         if (c <= 0) {
             System.out.println("Incorrect size C");
-//            return;
         } else this.c = c;
     }
 
