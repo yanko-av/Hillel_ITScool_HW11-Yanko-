@@ -22,6 +22,9 @@ public class Main {
         System.out.println("Volume of box 1 is -  " + box1.volume());
         System.out.println("Volume of box 2 is -  " + box2.volume());
 
+        ColorBox cBox1 = new ColorBox(1,2,3,Material.METAL,Color.BLACK);
+        System.out.println();
+        System.out.println( "The volume of " + cBox1.getMaterial() + " " + cBox1.getColor() + " box is " + cBox1.volume());
 
     }
 }

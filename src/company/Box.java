@@ -1,21 +1,19 @@
 package company;
 
 public class Box {
-    int a;
-    int b;
-    int c;
-    String colour;
-    String material;
+    private int a;
+    private int b;
+    private int c;
+    private Material material;
 
-    Box(int a, int b, int c) {
+    public Box(int a, int b, int c) {
         this.a = a;
         this.b = b;
         this.c = c;
     }
 
-    Box(int a, int b, int c, String colour, String material) {
+    public Box(int a, int b, int c, Material material) {
         this(a, b, c);
-        this.colour = colour;
         this.material = material;
     }
 
@@ -49,20 +47,11 @@ public class Box {
         } else this.c = c;
     }
 
-
-    public String getColour() {
-        return colour;
-    }
-
-    public void setColour(String colour) {
-        this.colour = colour;
-    }
-
-    public String getMaterial() {
+    public Material getMaterial() {
         return material;
     }
 
-    public void setMaterial(String material) {
+    public void setMaterial(Material material) {
         this.material = material;
     }
 
