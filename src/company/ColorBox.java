@@ -15,4 +15,15 @@ public class ColorBox extends Box {
     public void setColor(Color color) {
         this.color = color;
     }
+
+    @Override
+    public String toString() {
+        return "ColorBox{" +
+                "a=" + getA() +
+                ", b=" + getB() +
+                ", c=" + getC() +
+                ", material=" + getMaterial() +
+                ", color=" + color +
+                '}'+"\n";
+    }
 }
