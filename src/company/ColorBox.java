@@ -18,12 +18,12 @@ public class ColorBox extends Box {
 
     @Override
     public String toString() {
-        return "ColorBox{" +
+        return "\nColorBox{" +
                 "a=" + getA() +
                 ", b=" + getB() +
                 ", c=" + getC() +
                 ", material=" + getMaterial() +
                 ", color=" + color +
-                '}'+"\n";
+                '}';
     }
 }

@@ -18,7 +18,7 @@ public class Main {
 //            System.out.println("Volume of box 1 is -  " + box1.volume());
 //            System.out.println("The volume of " + cBox1.getMaterial() + " " + cBox1.getColor() + " box is " + cBox1.volume());
 
-            Warehouse wh1 = new Warehouse(8);
+            Warehouse wh1 = new Warehouse(7);
 
             wh1.addBoxes(new Box(1, 2, 3,Material.METAL));
             wh1.addBoxes(new Box(2, 4, 6, Material.PLASTIC));

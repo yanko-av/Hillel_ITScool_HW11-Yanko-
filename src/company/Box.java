@@ -66,12 +66,12 @@ public class Box {
 
         @Override
         public String toString () {
-            return "Box{" +
+            return "\nBox{" +
                     "a=" + a +
                     ", b=" + b +
                     ", c=" + c +
                     ", material=" + material +
-                    '}'+"\n";
+                    '}';
         }
 
     }
