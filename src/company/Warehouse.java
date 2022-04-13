@@ -30,7 +30,6 @@ public class Warehouse {
 
     @Override
     public String toString() {
-        return  "Box quantity in the warehouse is - " + boxQuantity +
-                "\n" + Arrays.toString(boxes);
+        return "Box quantity in the warehouse is - " + boxQuantity + Arrays.toString(boxes);
     }
 }
